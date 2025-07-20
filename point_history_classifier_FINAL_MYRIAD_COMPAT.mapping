@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="Add__15:0" out_port_id="Add__15:0"/>
+		<IR id="10" name="Add__15" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="onnx::Where_3" out_port_id="onnx::Where_3"/>
+		<IR id="29" name="ArgMax_1/Squeeze" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sub_out" out_port_id="sub_out"/>
+		<IR id="25" name="Sub1/sub" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Add1" out_port_id="0"/>
+		<IR id="32" name="Add1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential/dense_1/Relu;sequential/dense_1/BiasAdd" out_port_id="sequential/dense_1/Relu;sequential/dense_1/BiasAdd"/>
+		<IR id="8" name="sequential/dense_1/Relu;sequential/dense_1/BiasAdd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="const_fold_opt__21" out_port_id="const_fold_opt__21"/>
+		<IR id="7" name="sequential/dense_1/Relu;sequential/dense_1/BiasAdd/1_port_transpose694_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="onnx::Where_3_float_casted" out_port_id="onnx::Where_3_float_casted"/>
+		<IR id="30" name="AutoCast_2" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mul2_out" out_port_id="mul2_out"/>
+		<IR id="31" name="Mul2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="base_scores" out_port_id="base_scores"/>
+		<IR id="16" name="Identity" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential/dense/Relu;sequential/dense/BiasAdd" out_port_id="sequential/dense/Relu;sequential/dense/BiasAdd"/>
+		<IR id="3" name="sequential/dense/Relu;sequential/dense/BiasAdd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="const_fold_opt__20" out_port_id="const_fold_opt__20"/>
+		<IR id="12" name="sequential/dense_2/BiasAdd/1_port_transpose686_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="score_threshold" out_port_id="score_threshold"/>
+		<IR id="0" name="score_threshold/const_placeholder/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="Relu__7:0" out_port_id="Relu__7:0"/>
+		<IR id="6" name="Relu__7" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mul1_out" out_port_id="mul1_out"/>
+		<IR id="23" name="Mul1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="input" out_port_id="input"/>
+		<IR id="1" name="input" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="const_fold_opt__22" out_port_id="const_fold_opt__22"/>
+		<IR id="2" name="sequential/dense/Relu;sequential/dense/BiasAdd/1_port_transpose690_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="less_sub_out" out_port_id="less_sub_out"/>
+		<IR id="19" name="Less_2_Sub/sub" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Add__10:0" out_port_id="Add__10:0"/>
+		<IR id="5" name="Add__10" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential/dense_2/BiasAdd" out_port_id="sequential/dense_2/BiasAdd"/>
+		<IR id="13" name="sequential/dense_2/BiasAdd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Add__18:0" out_port_id="Add__18:0"/>
+		<IR id="15" name="Add__18" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Relu__12:0" out_port_id="Relu__12:0"/>
+		<IR id="11" name="Relu__12" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="less_clip_out" out_port_id="less_clip_out"/>
+		<IR id="20" name="Less_2_Clip" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="onnx::Cast_4_float_casted" out_port_id="onnx::Cast_4_float_casted"/>
+		<IR id="21" name="Less_2_Relu" out_port_id="1"/>
+	</map>
+</mapping>
